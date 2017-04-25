@@ -1,0 +1,331 @@
+
+html body{
+  font-family: Adelle Sans;
+  color: #363C44;
+}
+
+
+img {
+  max-width: 480px;
+  width: 90vw;
+  position: relative;
+}
+
+/*--  Fonts  --*/
+
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+
+h2 {
+  font-weight: 300;
+  font-size: 45px;
+  margin-bottom: 20px
+}
+
+
+h3 {
+  font-weight: regular;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.2em;
+  color: #7C828A;
+}
+
+
+/*--  Nav  --*/
+
+nav {
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.navbar {
+  border: none;
+  background-color: transparent;
+
+}
+
+nav a {
+  color: white;
+}
+
+.logo img {
+  width: 130px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+
+/*--  Jumbotron  --*/
+
+.jumbotron {
+  background-color: #313946;
+  background-image: url('https://cloud.githubusercontent.com/assets/14104075/25308716/1fa9c688-2778-11e7-8a65-075235f9ce69.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 85vh;
+  max-height: 600px;
+  margin-top: -70px;
+}
+
+.jumbotron .container {
+  padding-top: 150px;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+/*--  Sections  --*/
+
+.intro h3 {
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.br {
+  width: 100%;
+  height: 1px;
+  background-color: #D6DCE4;
+  margin-top: 70px;
+}
+
+
+
+.img-contain {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+
+.row {
+  padding-top: 40px;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-align img {
+  margin: 0;
+}
+
+.vertical-align p {
+}
+
+.section2 {
+  text-align: right;
+}
+
+.dashboard {
+  height: 300px;
+  background-color: grey;
+  padding: 70px 0 55px;
+  color: white;
+  position: relative;
+}
+
+.signup {
+  text-align: center;
+  height: 300px;
+  background-color: lightgrey;
+  padding-top: 70px;
+}
+
+
+.secondary {
+  height: 350px;
+  margin: 40px 20px 40px 20px;
+}
+
+.secondary a {
+  color: #36B2B5;
+  transition: 0.25s;
+}
+
+.secondary a:hover {
+  color: #36B2B5;
+  transition: 0.25s;
+  opacity: 0.70;
+  text-decoration: none;
+
+}
+
+
+.email-and-button {
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  transform: perspective(500px) translate3d(0px,0px,0px);
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+.email-and-button:hover {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  transform: perspective(500px) translate3d(0px,0px,10px);
+  transition: transform 0.2s ease;
+}
+.email-and-button input[type=email] {
+  width: 67%;
+  padding: 15px 10px;
+  float: left;
+  font-size: 19px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  transition: width 0.2s ease, background-color 0.2s ease;
+  border-radius: 0px;
+}
+
+.email-and-button input[type=submit] {
+  position: absolute;
+  top: 0;
+  padding: 15px 0px;
+  right: 0;
+  bottom: 0;
+  border: none;
+  width: 33%;
+  outline: none;
+  transition: width 0.2s ease;
+}
+.email-and-button .app-dl {
+  position: absolute;
+  top: 0;
+  padding: 15px 0px;
+  left: 0;
+  border: none;
+  width: 0px;
+  outline: none;
+  transition: width 0.2s ease;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}
+
+.button-submit {
+  color: white;
+  background-color: #F26552;
+  font-weight: bold;
+}
+
+
+
+
+
+
+footer {
+  color: #fff;
+  min-height: 300px;
+  padding-top: 40px;
+  background-color: #313946;
+  list-style: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #B8BEC6;
+  transition: 0.25s;
+}
+
+footer a:hover {
+  color: #F26552;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.indicator {
+  border-radius: 5px;
+  height: 9px;
+  width: 9px;
+  background-color: #39C5C8;
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+
+footer .logo {
+  background-image: url('https://cloud.githubusercontent.com/assets/14104075/25368823/96cefc22-293c-11e7-9853-c64ee85728e2.png');
+  width: 180px;
+  height: 40px;
+  margin-left: 20px;
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+}
+
+
+/*
+
+footer a, footer a:visited {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: border-color 0.4s ease;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+footer a:hover, footer a:active {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+  transition: border-color 0.2s ease;
+}
+footer a.button, footer a.button:visited {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.footer-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 20px 30px;
+}
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-links li {
+  margin: 0px 0px 0px 12px;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-marg {
+  margin-top: 70px;
+  font-size: 12px;
+}
+
+
+
+*/
+
